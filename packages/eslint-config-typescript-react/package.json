@@ -1,0 +1,37 @@
+{
+  "name": "@jupri-lab/eslint-config-typescript-react",
+  "version": "0.1.0",
+  "description": "Curated eslint config for typescript react projects.",
+  "dependencies": {
+    "@jupri-lab/eslint-config-typescript": "*"
+  },
+  "peerDependencies": {
+    "eslint-plugin-react": "^7.34.2",
+    "eslint-plugin-react-hooks": "^4.6.2"
+  },
+  "homepage": "https://github.com/JupriLab/lint/",
+  "author": {
+    "name": "Mikhael Esa",
+    "email": "mikhaelesaa@gmail.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/JupriLab/lint.git",
+    "directory": "packages/eslint-config-typescript-react"
+  },
+  "bugs": {
+    "url": "https://github.com/JupriLab/lint/issues"
+  },
+  "keywords": [
+    "eslint",
+    "eslint-config",
+    "eslint-config-typescript",
+    "eslintconfig",
+    "eslintconfigtypescript",
+    "jupri-lab"
+  ],
+  "sideEffects": false,
+  "engines": {
+    "node": ">=18.18.0"
+  }
+}

@@ -10,3 +10,4 @@ This package provides a pre-configured ESLint configuration specifically designe
 ## Configurations
 
 - [eslint-config-typescript](https://github.com/JupriLab/lint/tree/main/packages/eslint-config-typescript)
+- [eslint-config-typescript-react](https://github.com/JupriLab/lint/tree/main/packages/eslint-config-typescript-react)
