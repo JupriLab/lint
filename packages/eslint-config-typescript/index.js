@@ -1,23 +1,23 @@
-{
-  "parser": "@typescript-eslint/parser",
-  "plugins": [
+module.exports = {
+  parser: "@typescript-eslint/parser",
+  plugins: [
     "@typescript-eslint",
     "sort-keys",
     "sort-destructure-keys",
-    "typescript-sort-keys"
+    "typescript-sort-keys",
   ],
-  "extends": ["eslint:recommended", "plugin:@typescript-eslint/recommended"],
-  "rules": {
+  extends: ["eslint:recommended", "plugin:@typescript-eslint/recommended"],
+  rules: {
     "sort-keys": 0,
     "sort-keys/sort-keys-fix": 1,
     "typescript-sort-keys/interface": "error",
     "sort-destructure-keys/sort-destructure-keys": [
       "error",
-      { "caseSensitive": false }
+      { caseSensitive: false },
     ],
     "no-console": "warn",
-    "semi": ["error", "always"],
-    "quotes": ["error", "double"],
+    semi: ["error", "always"],
+    quotes: ["error", "double"],
     "no-extra-semi": "error",
     "comma-dangle": ["error", "always-multiline"],
 
@@ -27,14 +27,14 @@
     "@typescript-eslint/no-unused-vars": [
       "error",
       {
-        "args": "all",
-        "argsIgnorePattern": "^_",
-        "caughtErrors": "all",
-        "caughtErrorsIgnorePattern": "^_",
-        "destructuredArrayIgnorePattern": "^_",
-        "varsIgnorePattern": "^_",
-        "ignoreRestSiblings": true
-      }
+        args: "all",
+        argsIgnorePattern: "^_",
+        caughtErrors: "all",
+        caughtErrorsIgnorePattern: "^_",
+        destructuredArrayIgnorePattern: "^_",
+        varsIgnorePattern: "^_",
+        ignoreRestSiblings: true,
+      },
     ],
     "no-return-await": "off",
     "@typescript-eslint/return-await": "error",
@@ -51,15 +51,15 @@
     "@typescript-eslint/no-misused-promises": [
       "error",
       {
-        "checksVoidReturn": false
-      }
+        checksVoidReturn: false,
+      },
     ],
     "@typescript-eslint/no-explicit-any": [
       "error",
       {
-        "fixToUnknown": true,
-        "ignoreRestArgs": true
-      }
+        fixToUnknown: true,
+        ignoreRestArgs: true,
+      },
     ],
     "@typescript-eslint/no-redundant-type-constituents": "error",
     "@typescript-eslint/no-unnecessary-boolean-literal-compare": "error",
@@ -68,15 +68,15 @@
     "@typescript-eslint/no-useless-empty-export": "error",
     "@typescript-eslint/prefer-find": "error",
     "@typescript-eslint/prefer-includes": "error",
-    "@typescript-eslint/sort-type-constituents": "error"
+    "@typescript-eslint/sort-type-constituents": "error",
   },
-  "env": {
-    "browser": true,
-    "es6": true,
-    "node": true
+  env: {
+    browser: true,
+    es6: true,
+    node: true,
   },
-  "parserOptions": {
-    "sourceType": "module",
-    "ecmaVersion": 2023
-  }
-}
+  parserOptions: {
+    sourceType: "module",
+    ecmaVersion: 2023,
+  },
+};
