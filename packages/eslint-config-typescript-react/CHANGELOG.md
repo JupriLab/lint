@@ -1,3 +1,7 @@
+## v0.1.1
+
+- Fixed filename type from `.index.js` to `index.js`
+
 ## v0.1.0
 
 - Initialized package
