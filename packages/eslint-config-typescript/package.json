@@ -1,0 +1,38 @@
+{
+  "name": "@jupri-lab/eslint-config-typescript",
+  "version": "0.1.0",
+  "description": "Curated eslint config for typescript projects.",
+  "peerDependencies": {
+    "@typescript-eslint/eslint-plugin": "7.11.0",
+    "@typescript-eslint/parser": "7.11.0",
+    "eslint": "^8.56.0",
+    "eslint-plugin-sort-destructure-keys": "^2.0.0",
+    "eslint-plugin-sort-keys": "^2.3.5",
+    "eslint-plugin-typescript-sort-keys": "^3.2.0"
+  },
+  "homepage": "https://github.com/JupriLab/lint/",
+  "author": {
+    "name": "Mikhael Esa",
+    "email": "mikhaelesaa@gmail.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/JupriLab/lint.git",
+    "directory": "packages/eslint-config-typescript"
+  },
+  "bugs": {
+    "url": "https://github.com/JupriLab/lint/issues"
+  },
+  "keywords": [
+    "eslint",
+    "eslint-config",
+    "eslint-config-typescript",
+    "eslintconfig",
+    "eslintconfigtypescript",
+    "jupri-lab"
+  ],
+  "sideEffects": false,
+  "engines": {
+    "node": ">=18.18.0"
+  }
+}

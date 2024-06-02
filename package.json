@@ -1,0 +1,22 @@
+{
+  "name": "@jupri-lab/lint",
+  "private": true,
+  "license": "MIT",
+  "description": "Our curated linter rules that can boosts developer experience.",
+  "workspaces": [
+    "packages/*"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/JupriLab/lint.git"
+  },
+  "author": {
+    "name": "Mikhael Esa",
+    "email": "mikhaelesaa@gmail.com"
+  },
+  "homepage": "https://github.com/JupriLab/lint",
+  "bugs": {
+    "url": "https://github.com/JupriLab/lint/issues"
+  },
+  "packageManager": "npm@10.8.1"
+}
