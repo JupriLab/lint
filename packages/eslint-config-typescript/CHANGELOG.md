@@ -1,6 +1,13 @@
+## v0.1.2
+
+- Removed .eslintrc.json.
+- Updated README.md about installation and usage.
+  - Alternative for installaltion
+  - Should specify `parserOptions.project` in eslint file
+
 ## v0.1.1
 
-- Created and index.js version
+- Created an index.js version.
 
 ## v0.1.0
 

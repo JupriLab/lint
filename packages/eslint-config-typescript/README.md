@@ -4,9 +4,17 @@ This ESLint configuration aims to enhance your TypeScript development experience
 
 ## Installation
 
-To install this configuration as a development dependency in your project, run the following command in your terminal
+To install this configuration as a development dependency in your project, run the following command in your terminal.
 
-`npm install --save-dev @jupri-lab/eslint-config-typescript eslint eslint-plugin-sort-destructure-keys eslint-plugin-sort-keys eslint-plugin-typescript-sort-keys @typescript-eslint/eslint-plugin @typescript-eslint/parser`
+```bash
+$ npm install --save-dev @jupri-lab/eslint-config-typescript eslint eslint-plugin-sort-destructure-keys eslint-plugin-sort-keys eslint-plugin-typescript-sort-keys @typescript-eslint/eslint-plugin @typescript-eslint/parser
+```
+
+Or you can also use a package called [install-peerdeps](https://www.npmjs.com/package/install-peerdeps) to install all peer dependencies of the package. You can run the following script
+
+```bash
+$ npx install-peerdeps @jupri-lab/eslint-config-typescript
+```
 
 ## Usage
 
@@ -14,11 +22,14 @@ Create a file named .eslintrc.json (or .eslintrc.js) in your project's root dire
 
 ```json
 {
-  "extends": ["@jupri-lab/eslint-config-typescript"] // Replace with your package name
+  "extends": ["@jupri-lab/typescript"],
+  "parserOptions": {
+    "project": "./tsconfig.json"
+  }
 }
 ```
 
-### Optional: Enhance Developer Experience with IDE Integration
+## Optional: Enhance Developer Experience with IDE Integration
 
 For an even more seamless development experience, consider exploring your IDE's built-in ESLint integration capabilities. Most popular IDEs allow you to configure ESLint to run automatically on save. This provides real-time feedback on potential issues as you code, further improving code quality and efficiency.
 
